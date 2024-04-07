@@ -21,10 +21,10 @@ from optical import views
 urlpatterns = [
     path("admin/", admin.site.urls),
 
-    path('sale/', views.sale),
-    path('saledetail/', views.saleDetail),
-    path('stockmovement/', views.stockMovement),
-    path('salereports/', views.salereports),
-    path('saledetailreports/', views.saledetailreports),
-    path('stockmovementreports/', views.stockmovementreports),
+    path('sale/', views.Sale),
+    path('saledetail/', views.SaleDetail),
+    path('stockmovement/', views.StockMovement),
+    path('salereports/', views.Salereports),
+    path('saledetailreports/', views.Saledetailreports),
+    path('stockmovementreports/', views.Stockmovementreports),
 ]
